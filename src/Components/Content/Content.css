@@ -1,0 +1,41 @@
+.content-container{
+    background-color: white;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #E9E9E9;
+    /* height: 100%; */
+    height: 10%;
+    width: 90%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.25vmin;
+    color: rgba(0, 0, 0, 0.6);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.search-input:focus{
+    border-bottom: 1px solid black;
+}
+
+.scrolling-container{
+    overflow-y: scroll;
+    width: 100%;
+    height: 90%;
+}
+
+  /* MOBILE */
+  @media(max-width:1200px){
+    .content-container{
+        width: 80vw;
+    }
+  }

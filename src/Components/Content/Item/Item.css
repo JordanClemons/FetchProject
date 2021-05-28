@@ -1,0 +1,46 @@
+.item-container{
+    width: 100%;
+    border-bottom: 1px solid #E9E9E9;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+}
+
+.name-container{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 3vmin;
+}
+
+.id-container{
+    margin-right: 5%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    border-radius: 40px;
+    background-color: salmon;
+    font-weight: bolder;
+}
+
+.color-1{
+    background-color: #99d6ff;
+}
+
+.color-2{
+    background-color: #9999ff;
+}
+
+.color-3{
+    background-color: #ff99e6;
+}
+
+.color-4{
+    background-color: #99ff99;
+}
